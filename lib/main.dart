@@ -147,7 +147,7 @@ class _CalculatorState extends State<Calculator> {
 
           Container(
             color: Color(0xFF090808),
-            height: 460.0,
+            //height: 460.0,
             child: Row(
               children: <Widget>[
                 Expanded(
@@ -185,7 +185,7 @@ class _CalculatorState extends State<Calculator> {
                   ),
                 ),
                 Container(
-                  height: 460.0,
+                  height: 380.0,
                   width: 0.5,
                   color: Colors.white,
                 ),
@@ -212,7 +212,7 @@ class _CalculatorState extends State<Calculator> {
                     color: Color(0xFF544fe6),
                   ),
                   child: Padding(
-                    padding: const EdgeInsets.only(top: 190.0, bottom: 190.0),
+                    padding: const EdgeInsets.only(top: 153.5, bottom: 153.5),
                     child: CalcButton(
                       icon: FontAwesomeIcons.angleLeft,
                       callback: backSpace,

@@ -10,7 +10,7 @@ class CalcButton extends StatelessWidget {
   Widget build(BuildContext build) {
     return SizedBox(
       width: 40,
-      height: 80,
+      height: 70,
       child: RawMaterialButton(
         onPressed: () {callback();},
         child: Icon(icon, color: Color(0xFF8E8CBD),),
